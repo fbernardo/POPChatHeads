@@ -13,6 +13,8 @@
 		3F331E1F1A367D8A003A6FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F331E181A367D8A003A6FDB /* Images.xcassets */; };
 		3F331E211A367D8A003A6FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F331E1B1A367D8A003A6FDB /* AppDelegate.swift */; };
 		3F331E251A367DEE003A6FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F331E241A367DEE003A6FDB /* ViewController.swift */; };
+		3F331E3A1A367F48003A6FDB /* libpop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F331E311A367F2C003A6FDB /* libpop.a */; };
+		3F331E3E1A367FB4003A6FDB /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F331E3D1A367FB4003A6FDB /* SceneKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +24,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3F331DED1A367D02003A6FDB;
 			remoteInfo = POPChatHeads;
+		};
+		3F331E301A367F2C003A6FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC191218162FB53A00E0CC76;
+			remoteInfo = pop;
+		};
+		3F331E321A367F2C003A6FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC68857F18C7B60000C6194C;
+			remoteInfo = "pop-osx";
+		};
+		3F331E341A367F2C003A6FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B6BE74819FFD3B900762101;
+			remoteInfo = "pop-embedded";
+		};
+		3F331E361A367F2C003A6FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECF01ED318C92B7F009E0AD1;
+			remoteInfo = "pop-tests";
+		};
+		3F331E381A367F2C003A6FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC7E319918C93D6500B38170;
+			remoteInfo = "pop-tests-osx";
+		};
+		3F331E3B1A367F4D003A6FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EC191217162FB53A00E0CC76;
+			remoteInfo = pop;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +80,8 @@
 		3F331E191A367D8A003A6FDB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F331E1B1A367D8A003A6FDB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F331E241A367DEE003A6FDB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F331E281A367F2C003A6FDB /* pop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pop.xcodeproj; path = pop/pop.xcodeproj; sourceTree = "<group>"; };
+		3F331E3D1A367FB4003A6FDB /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F331E3E1A367FB4003A6FDB /* SceneKit.framework in Frameworks */,
+				3F331E3A1A367F48003A6FDB /* libpop.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +107,8 @@
 		3F331DE51A367D02003A6FDB = {
 			isa = PBXGroup;
 			children = (
+				3F331E3D1A367FB4003A6FDB /* SceneKit.framework */,
+				3F331E281A367F2C003A6FDB /* pop.xcodeproj */,
 				3F331DF01A367D02003A6FDB /* POPChatHeads */,
 				3F331E061A367D02003A6FDB /* POPChatHeadsTests */,
 				3F331DEF1A367D02003A6FDB /* Products */,
@@ -128,6 +178,18 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		3F331E291A367F2C003A6FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F331E311A367F2C003A6FDB /* libpop.a */,
+				3F331E331A367F2C003A6FDB /* pop.framework */,
+				3F331E351A367F2C003A6FDB /* pop.framework */,
+				3F331E371A367F2C003A6FDB /* pop-tests.octest */,
+				3F331E391A367F2C003A6FDB /* pop-tests-osx.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +204,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3F331E3C1A367F4D003A6FDB /* PBXTargetDependency */,
 			);
 			name = POPChatHeads;
 			productName = POPChatHeads;
@@ -195,6 +258,12 @@
 			mainGroup = 3F331DE51A367D02003A6FDB;
 			productRefGroup = 3F331DEF1A367D02003A6FDB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3F331E291A367F2C003A6FDB /* Products */;
+					ProjectRef = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3F331DED1A367D02003A6FDB /* POPChatHeads */,
@@ -202,6 +271,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3F331E311A367F2C003A6FDB /* libpop.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpop.a;
+			remoteRef = 3F331E301A367F2C003A6FDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F331E331A367F2C003A6FDB /* pop.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = pop.framework;
+			remoteRef = 3F331E321A367F2C003A6FDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F331E351A367F2C003A6FDB /* pop.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = pop.framework;
+			remoteRef = 3F331E341A367F2C003A6FDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F331E371A367F2C003A6FDB /* pop-tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "pop-tests.octest";
+			remoteRef = 3F331E361A367F2C003A6FDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3F331E391A367F2C003A6FDB /* pop-tests-osx.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "pop-tests-osx.octest";
+			remoteRef = 3F331E381A367F2C003A6FDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3F331DEC1A367D02003A6FDB /* Resources */ = {
@@ -248,6 +355,11 @@
 			isa = PBXTargetDependency;
 			target = 3F331DED1A367D02003A6FDB /* POPChatHeads */;
 			targetProxy = 3F331E041A367D02003A6FDB /* PBXContainerItemProxy */;
+		};
+		3F331E3C1A367F4D003A6FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			targetProxy = 3F331E3B1A367F4D003A6FDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -354,6 +466,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/POPChatHeads/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libpop.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -364,6 +481,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/POPChatHeads/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libpop.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
