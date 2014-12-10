@@ -22,7 +22,7 @@
 		<key>9AA3554DF94BC06C119FA540CB00C6823F495935</key>
 		<string>../..</string>
 		<key>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</key>
-		<string>../..pop/</string>
+		<string>../..pop</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:fbernardo/POPChatHeads.git</string>
@@ -36,17 +36,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</string>
+			<string>9AA3554DF94BC06C119FA540CB00C6823F495935</string>
 			<key>IDESourceControlWCCName</key>
-			<string>pop</string>
+			<string>POPChatHeads</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9AA3554DF94BC06C119FA540CB00C6823F495935</string>
+			<string>F2FE0AAE95F0B87896F2BEE0B176D4FC32D691A3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>POPChatHeads</string>
+			<string>POPChatHeadspop</string>
 		</dict>
 	</array>
 </dict>

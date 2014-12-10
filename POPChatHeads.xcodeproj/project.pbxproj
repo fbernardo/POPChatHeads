@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F331E0A1A367D02003A6FDB /* POPChatHeadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F331E091A367D02003A6FDB /* POPChatHeadsTests.swift */; };
 		3F331E1D1A367D8A003A6FDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F331E141A367D8A003A6FDB /* LaunchScreen.xib */; };
 		3F331E1E1A367D8A003A6FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F331E161A367D8A003A6FDB /* Main.storyboard */; };
 		3F331E1F1A367D8A003A6FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F331E181A367D8A003A6FDB /* Images.xcassets */; };
@@ -15,16 +14,11 @@
 		3F331E251A367DEE003A6FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F331E241A367DEE003A6FDB /* ViewController.swift */; };
 		3F331E3A1A367F48003A6FDB /* libpop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F331E311A367F2C003A6FDB /* libpop.a */; };
 		3F331E3E1A367FB4003A6FDB /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F331E3D1A367FB4003A6FDB /* SceneKit.framework */; };
+		3F7DC3281A37D46600CA16F8 /* ChatHeadsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC3271A37D46600CA16F8 /* ChatHeadsContainerViewController.swift */; };
+		3F7DC3301A37D52D00CA16F8 /* ChatHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DC32F1A37D52D00CA16F8 /* ChatHeadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F331E041A367D02003A6FDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F331DE61A367D02003A6FDB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F331DED1A367D02003A6FDB;
-			remoteInfo = POPChatHeads;
-		};
 		3F331E301A367F2C003A6FDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F331E281A367F2C003A6FDB /* pop.xcodeproj */;
@@ -71,9 +65,6 @@
 
 /* Begin PBXFileReference section */
 		3F331DEE1A367D02003A6FDB /* POPChatHeads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPChatHeads.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F331E031A367D02003A6FDB /* POPChatHeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPChatHeadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F331E081A367D02003A6FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F331E091A367D02003A6FDB /* POPChatHeadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPChatHeadsTests.swift; sourceTree = "<group>"; };
 		3F331E151A367D8A003A6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F331E171A367D8A003A6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F331E181A367D8A003A6FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -82,6 +73,9 @@
 		3F331E241A367DEE003A6FDB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F331E281A367F2C003A6FDB /* pop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pop.xcodeproj; path = pop/pop.xcodeproj; sourceTree = "<group>"; };
 		3F331E3D1A367FB4003A6FDB /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		3F7DC3271A37D46600CA16F8 /* ChatHeadsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHeadsContainerViewController.swift; sourceTree = "<group>"; };
+		3F7DC32D1A37D4B300CA16F8 /* POPChatHeads-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POPChatHeads-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F7DC32F1A37D52D00CA16F8 /* ChatHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHeadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,23 +88,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F331E001A367D02003A6FDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3F331DE51A367D02003A6FDB = {
 			isa = PBXGroup;
 			children = (
-				3F331E3D1A367FB4003A6FDB /* SceneKit.framework */,
 				3F331E281A367F2C003A6FDB /* pop.xcodeproj */,
 				3F331DF01A367D02003A6FDB /* POPChatHeads */,
-				3F331E061A367D02003A6FDB /* POPChatHeadsTests */,
 				3F331DEF1A367D02003A6FDB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				3F331DEE1A367D02003A6FDB /* POPChatHeads.app */,
-				3F331E031A367D02003A6FDB /* POPChatHeadsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,27 +111,11 @@
 		3F331DF01A367D02003A6FDB /* POPChatHeads */ = {
 			isa = PBXGroup;
 			children = (
+				3F331E3F1A368013003A6FDB /* Frameworks */,
 				3F331E131A367D8A003A6FDB /* Resources */,
 				3F331E1A1A367D8A003A6FDB /* Sources */,
 			);
 			path = POPChatHeads;
-			sourceTree = "<group>";
-		};
-		3F331E061A367D02003A6FDB /* POPChatHeadsTests */ = {
-			isa = PBXGroup;
-			children = (
-				3F331E091A367D02003A6FDB /* POPChatHeadsTests.swift */,
-				3F331E071A367D02003A6FDB /* Supporting Files */,
-			);
-			path = POPChatHeadsTests;
-			sourceTree = "<group>";
-		};
-		3F331E071A367D02003A6FDB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F331E081A367D02003A6FDB /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3F331E131A367D8A003A6FDB /* Resources */ = {
@@ -164,8 +132,10 @@
 		3F331E1A1A367D8A003A6FDB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3F7DC32E1A37D52D00CA16F8 /* Views */,
 				3F331E231A367DEE003A6FDB /* View Controllers */,
 				3F331E1B1A367D8A003A6FDB /* AppDelegate.swift */,
+				3F7DC32D1A37D4B300CA16F8 /* POPChatHeads-Bridging-Header.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -173,6 +143,7 @@
 		3F331E231A367DEE003A6FDB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3F7DC3271A37D46600CA16F8 /* ChatHeadsContainerViewController.swift */,
 				3F331E241A367DEE003A6FDB /* ViewController.swift */,
 			);
 			path = "View Controllers";
@@ -188,6 +159,22 @@
 				3F331E391A367F2C003A6FDB /* pop-tests-osx.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3F331E3F1A368013003A6FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F331E3D1A367FB4003A6FDB /* SceneKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7DC32E1A37D52D00CA16F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DC32F1A37D52D00CA16F8 /* ChatHeadView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,24 +198,6 @@
 			productReference = 3F331DEE1A367D02003A6FDB /* POPChatHeads.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F331E021A367D02003A6FDB /* POPChatHeadsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F331E101A367D02003A6FDB /* Build configuration list for PBXNativeTarget "POPChatHeadsTests" */;
-			buildPhases = (
-				3F331DFF1A367D02003A6FDB /* Sources */,
-				3F331E001A367D02003A6FDB /* Frameworks */,
-				3F331E011A367D02003A6FDB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F331E051A367D02003A6FDB /* PBXTargetDependency */,
-			);
-			name = POPChatHeadsTests;
-			productName = POPChatHeadsTests;
-			productReference = 3F331E031A367D02003A6FDB /* POPChatHeadsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -240,10 +209,6 @@
 				TargetAttributes = {
 					3F331DED1A367D02003A6FDB = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					3F331E021A367D02003A6FDB = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 3F331DED1A367D02003A6FDB;
 					};
 				};
 			};
@@ -267,7 +232,6 @@
 			projectRoot = "";
 			targets = (
 				3F331DED1A367D02003A6FDB /* POPChatHeads */,
-				3F331E021A367D02003A6FDB /* POPChatHeadsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,13 +285,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F331E011A367D02003A6FDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -335,27 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7DC3281A37D46600CA16F8 /* ChatHeadsContainerViewController.swift in Sources */,
 				3F331E251A367DEE003A6FDB /* ViewController.swift in Sources */,
+				3F7DC3301A37D52D00CA16F8 /* ChatHeadView.swift in Sources */,
 				3F331E211A367D8A003A6FDB /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F331DFF1A367D02003A6FDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F331E0A1A367D02003A6FDB /* POPChatHeadsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F331E051A367D02003A6FDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F331DED1A367D02003A6FDB /* POPChatHeads */;
-			targetProxy = 3F331E041A367D02003A6FDB /* PBXContainerItemProxy */;
-		};
 		3F331E3C1A367F4D003A6FDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = pop;
@@ -464,6 +410,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/pop\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/POPChatHeads/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -472,6 +423,7 @@
 					"$(BUILT_PRODUCTS_DIR)/libpop.a",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POPChatHeads/Sources/POPChatHeads-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -479,6 +431,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/pop\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/POPChatHeads/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -487,40 +444,7 @@
 					"$(BUILT_PRODUCTS_DIR)/libpop.a",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3F331E111A367D02003A6FDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = POPChatHeadsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPChatHeads.app/POPChatHeads";
-			};
-			name = Debug;
-		};
-		3F331E121A367D02003A6FDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = POPChatHeadsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPChatHeads.app/POPChatHeads";
+				SWIFT_OBJC_BRIDGING_HEADER = "POPChatHeads/Sources/POPChatHeads-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -543,14 +467,7 @@
 				3F331E0F1A367D02003A6FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3F331E101A367D02003A6FDB /* Build configuration list for PBXNativeTarget "POPChatHeadsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F331E111A367D02003A6FDB /* Debug */,
-				3F331E121A367D02003A6FDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
